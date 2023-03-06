@@ -1,0 +1,41 @@
+/* = = = = = MIXed = = = = = */
+
+
+
+/* = = = = = TAGs = = = = = */
+
+body
+{
+    height: 100vh;
+    color: #00a;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    text-align: center;
+}
+
+a
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* = = = = = CLASSes = = = = = */
+
+.container
+{
+    border-radius: 1em;
+    background: #ccc;
+}
+
+/* = = = = = IDs = = = = = */
+
+#_header, #_footer
+{
+    margin: 2em;
+}
+#__content
+{
+    margin: 0 2em;
+}
