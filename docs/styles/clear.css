@@ -13,7 +13,7 @@ ul[class], ol[class]
 /* Убираем внешние отступы */
 body,
 h1, h2, h3, h4,
-p,
+p, pre,
 ul[class], ol[class], li,
 figure,
 figcaption,

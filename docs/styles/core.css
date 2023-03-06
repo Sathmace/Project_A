@@ -1,13 +1,29 @@
 /* = = = = = MIXed = = = = = */
 
+#_header > div
+{
+    border-radius: 1em;
+    margin-bottom: -2em;
+    padding: 2em;
 
+    background: #aaa;
+}
+
+#_footer > div
+{
+    border-radius: 1em;
+    margin-top: -2em;
+    padding: 2em;
+
+    background: #aaa;
+}
 
 /* = = = = = TAGs = = = = = */
 
 body
 {
-    height: 100vh;
     color: #00a;
+    padding: 12em 0;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -20,22 +36,56 @@ a
     font-weight: bold;
     text-decoration: none;
 }
+a:hover
+{
+    color: #a50;
+}
+a:active
+{
+    color: black;
+}
 
 /* = = = = = CLASSes = = = = = */
 
 .container
 {
-    border-radius: 1em;
-    background: #ccc;
+    width: 90vw;
+}
+
+.flex-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* = = = = = IDs = = = = = */
 
-#_header, #_footer
+#_header
 {
-    margin: 2em;
+    position:    fixed;
+    top:         0;
+    left:        5vw;
+    padding-top: 2em;
+
+    background: white;
 }
-#__content
+
+#_content
 {
-    margin: 0 2em;
+    border-radius: 1em;
+    margin: 0 5vw;
+    padding: 2em;
+
+    background: #ccc;
+}
+
+#_footer
+{
+    position:       fixed;
+    bottom:         0;
+    left:           5vw;
+    padding-bottom: 2em;
+
+    background: white;
 }
