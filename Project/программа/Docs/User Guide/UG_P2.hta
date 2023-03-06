@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Создание объекта 'Куб' на сцене</title>
+
+        <HTA:APPLICATION Id              = "UG_P2"
+                         ApplicationName = "Руководство пользователя : страница 2"
+                         Version         = "1.0"
+                         
+                         Border          = "thin"
+                         Scroll          = "auto"
+                         ScrollFlat      = "yes"
+                         MaximizeButton  = "no"
+                         MinimizeButton  = "no"
+                         ContextMenu     = "no"
+
+                         Navigable       = "yes"
+
+                         WindowState     = "normal"
+                         ShowInTaskbar   = "no"
+                         SingleInstance  = "yes"
+        />
+    </head>
+
+    <style>
+        body
+        {
+            margin:  0 auto;
+            padding: 1em;
+        }
+        ul    { font-size:  1.2em;  }
+        li    { margin-top: 0.5em;  }
+        .menu { text-align: center; }
+    </style>
+
+    <script> window.resizeTo(500, 800); </script>
+
+    <body>
+
+        <div class="menu">
+            <a href="UG_P0.hta"> Главная                              </a> <br />
+            <a href="UG_P1.hta"> Открытие существующего проекта сцены </a> <br />
+            <a href="UG_P2.hta"> В начало                             </a> <br />
+            <a href="UG_P3.hta"> Инструменты лепки : разрезание       </a>
+        </div>
+
+        <h3> Для создания объекта 'Куб' на сцене : </h3>
+        <ol>
+            <li> Нажмите на группу '3-мерные примитивы' на панели инструментов <br />
+                 ( стандартное расположение : левая часть окна ) </li>
+            <li> Нажмите на инструмент 'Куб' на отобразившейся области рядом с панелью инструментов </li>
+            <li> Нажмите на точку на сцене, в которой будет расположен левый-верхний-ближний угол куба, <br />
+                 и удерживате нажатие </li>
+            <li> Перетяните курсор к точке на сцене, в которой будет расположен правый-нижний-ближний угол куба, <br />
+                 и отпустите нажатие </li>
+        </ol>
+
+    </body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Основной класс приложения</title>
+    </head>
+
+    <style>
+        body
+        {
+            margin:  0 auto;
+            padding: 1em;
+        }
+        ul    { font-size:  1.2em;  }
+        li    { margin-top: 0.5em;  }
+        .menu { text-align: center; }
+    </style>
+
+    <script> window.resizeTo(500, 800); </script>
+
+    <body>
+
+        <div class="menu">
+            <a href="CG_P0.html"> Главная              </a> <br />
+            <a href="CG_P1.html"> Требуемый функционал </a> <br />
+            <a href="CG_P2.html"> В начало             </a> <br />
+            <a href="CG_P3.html"> Программные модули   </a>
+        </div>
+
+        <h3> Поля и методы класса 'MainWindow' : </h3>
+        <ul>
+            <li> Поля :
+                <ul>
+                    <li> private Primitives.Primitives        primitives         = null </li>
+                    <li> private Modelling.Modelling          modelling          = null </li>
+                    <li> private Painting.Painting            painting           = null </li>
+                    <li> private Animation.Animation          animation          = null </li>
+                    <li> private Scene_structure_controller   scene_structure    = null </li>
+                    <li> private Scene_controller             scene              = null </li>
+                    <li> private User_interfaces              interfaces         = null </li>
+                    <li> private Project_resources_controller project_controller = null </li>
+                </ul>
+            </li>
+            <li> Методы :
+                <ul>
+                    <li> public       MainWindow()  - Конструктор класса главного окна                                              </li>
+                    <li> private void Init_fields() - Обеспечивает инициализацию полей класса                                       </li>
+                    <li> private void Message()     - Обеспечивает вывод сообщения пользователю, содержащего названия классов полей </li>
+                </ul>
+            </li>
+        </ul>
+
+    </body>
+
+</html>
