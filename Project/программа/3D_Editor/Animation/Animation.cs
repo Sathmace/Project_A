@@ -16,5 +16,7 @@ namespace _3D_Editor.Animation
 	
             _class_name = "Animation";
         }
+	
+	public Close() {}
     }
 }
