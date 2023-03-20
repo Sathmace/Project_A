@@ -14,5 +14,8 @@ namespace _3D_Editor.Scene
         {
             _class_name = "Scene_controller";
         }
+	
+        public New_Function() {}
+
     }
 }
