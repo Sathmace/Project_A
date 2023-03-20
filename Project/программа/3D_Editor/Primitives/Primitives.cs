@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _3D_Editor.Modelling
+namespace _3D_Editor.Primitives
 {
-    internal class Modelling
+    internal class Primitives
     {
         public string _class_name { get; private set; }
 
-        public Modelling()
+        public Primitives()
         {
-            _class_name = "Modelling";
+            _class_name = "Primitives";
         }
     }
 }

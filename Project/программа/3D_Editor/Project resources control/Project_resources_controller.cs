@@ -12,7 +12,6 @@ namespace _3D_Editor.Project_resources_control
 
         public Project_resources_controller()
         {
-	//my comm
             _class_name = "Project_resources_controller";
         }
     }
